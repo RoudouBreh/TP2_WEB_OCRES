@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'My Lucida';
     src: url('../font/LucidaGrande.ttf');
-    font-style: normal; 
+    font-style: normal;
     font-weight: bold;
 }
 
@@ -21,6 +21,7 @@ a {
 .wrapper {
     padding: 25px 0;
 }
+
 
 body > header {
     margin-bottom: 20px;
@@ -132,6 +133,7 @@ header form {
     width: 100%;
 }
 
+
 input.search {
     background: url("../img/icon/search.png") #ebeff1 no-repeat 8px;
     box-shadow: none;
@@ -173,6 +175,9 @@ input.submit {
     font-size: 13px;
     color: #89949b;
     margin: 10px 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
 }
 
 #albums article img {
@@ -208,6 +213,31 @@ nav.browse a, nav.music a {
     padding-left: 20px;
     padding-top: 2px;
 }
+
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerPictures
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerAlbums
+{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
 nav a.recent { background: url("../img/icon/recent.png") no-repeat 0px; }
